@@ -1,23 +1,24 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: SF Pro Display, Cascadia NF;
-    font-size: 15px;
-    border-radius: 16px;
+    font-family: Papyrus, Cascadia NF;
+    font-size: 18px;
+    background-color: rgba(252, 232, 191, 0);
     padding: 2px;
-    background-color: rgba(0, 0, 0, 0);
 
 }
 
 window#waybar {
-    border-bottom: 3px solid rgba(100, 114, 125, 0.0);
+    border-bottom: 3px solid rgba(199, 201, 132, 0);
     color: #afebce;
     transition-property: background-color;
     transition-duration: .5s;
     background-color: rgba(0, 0, 0, 0);
+    padding: 2px;
 }
 
 #window {
     font-size: 90px;
+    padding: 2px;
 }
 
 window#waybar.hidden {
@@ -102,11 +103,10 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
-    border-radius: 16px;
-    background-color: #322049;
-    padding: 0 10px;
-    color: #ffffff;
-    border-color:  rgba(141, 105, 202, 0.5);
+    background-color: #fce8bf;
+    padding: 0 7px;
+    color: #000000;
+    border-color:  rgba(16, 46, 83, 1);
     border-width: 2px;
     border-style: solid;
 }
@@ -116,6 +116,7 @@ button:hover {
     color: #ffffff;
     margin: 0 4px;
     font-size: 80px;
+    padding: 2px;
 }
 
 
@@ -130,7 +131,6 @@ button:hover {
 }
 
 #clock {
-font-size: 15px;
 }
 
 #battery {
@@ -200,7 +200,6 @@ label:focus {
 }
 
 #pulseaudio {
-    color: #FFFFFF;
 }
 
 #pulseaudio.muted {
